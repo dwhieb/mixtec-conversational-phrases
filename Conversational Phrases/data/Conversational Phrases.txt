@@ -1,0 +1,40 @@
+Begin Time - ss.msec	End Time - ss.msec	Mixtec	Spanish	English
+4.73	5.87	Ándéé bàʼandó?	Están Uds. bien? (formal)	Are you doing well? (pl. formal)
+11.055	11.885	Ándééndó?	Cómo están Uds.?	How are you? (pl. formal)
+16.101	17.161	Ayóo bàʼún?	Está Ud. bien? (formal)	Are you doing well? (sg. formal)
+20.518	21.388	Ayôún?	Cómo está Ud.?	How are you? (sg. formal)
+25.395	26.095	bàʼa	bueno	good
+27.678	28.468	bàʼá	malo	bad
+33.004	33.874	bàʼa ba	bien, bueno	well, good
+38.592	40.012	Chaʼbi bàʼa tontoún.	Muchisimas gracias.	Thank you (sg.) very much.
+48.056	49.166	Chaʼbi bàʼún.	Gracias. (sg.)	Thank you. (sg.)
+52.018	52.848	Chaʼbi ún.	Gracias. (sg.)	Thank you. (sg.)
+57.887	58.947	Chaʼbi miún.	Gracias a tí.	Thank *you*. (sg.)
+67.14	68.14	Iʼní ndiaʼí.	Soy enojana.	I'm an angry person.
+72.062	73.742	Kasa káʼnu innú xàʼí.	Lo siento.	I'm sorry.
+77.909	78.589	kaʼà	hablar	to speak
+83.403	84.183	Káʼandó.	Digama. (teléfono)	Talk to me. (phone)
+87.384	88.124	kìbi	nombre	name
+91.419	92.459	Kìbi kúú ...	Mi nombre es ...	My name is ...
+96.259	97.119	Kwaʼan beí.	Adios.	Goodbye.
+101.18	101.97	Kwaʼìn.	Me voy.	I'm leaving.
+106.296	107.296	Ḿmḿ.	Sí.	Uh huh.
+111.287	112.867	Ña kusana kúá.	Fue accidental.	It was an accident.
+117.565	118.385	nana	madre	madam
+124.324	125.504	Ndàcha naníún?	Cual es tu nombre?	What's your name?
+130.842	132.1	Ndàcha yóo miún?	Y cómo estás tú? (informal)	And how are you? (sg. informal)
+140.487	142.237	Ndakúá kúbi chindééndí ndóʼo?	En qué podemos ayudar Uds.?	How can we help you? (pl.)
+146.329	147.359	Ndéé bàʼa bandí.	Estámos bien.	We're good.
+150.443	151.403	Ndéé bàʼandó?	Están Uds. bien? (informal)	Are you doing good? (pl. informal)
+155.687	156.617	Ndééndóʼo.	Cómo están Uds.? (informal)	How are you? (pl. informal)
+158.35	159.16	tata	padre	sir
+161.999	162.749	tuʼun	lengua	language
+167.071	168.051	Tuʼun Ndáʼbi	Mixteco	Mixtec
+172.171	173.161	Tuʼun Sàbí	Mixteco (formal)	Mixtec (formal)
+175.631	176.611	Xitaànga.	Hasta mañana.	Until later.
+188.37	189.99	Yôí kìbi biti.	???	???
+195.901	196.901	Yóo bàʼa beí.	Estoy bien.	I'm doing good.
+202.932	203.792	Yóo bàʼún?	Estás bien? (informal)	Are you doing good? (sg. informal)
+206.311	207.141	Yóo beí.	Estoy bien.	I'm good.
+215.889	216.749	Yôún?	Cómo estás? (informal)	How are you? (sg. informal)
+
