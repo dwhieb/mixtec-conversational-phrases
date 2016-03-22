@@ -119,22 +119,26 @@
       text-align: center;
     }
 
-    main {
-      align-items: center;
-      font-size: 1.25rem;
-      padding: 1rem;
+  main {
+    align-items: center;
+    font-size: 1.25rem;
+    padding: 1rem;
+  }
+
+  .play {
+    text-align: center;
+    vertical-align: middle;
+  }
+
+    .play svg {
+      cursor: pointer;
+      display: block;
+      margin: auto;
     }
 
-    .play {
-      text-align: center;
-      vertical-align: middle;
-    }
-
-      .play svg {
-        cursor: pointer;
-        display: block;
-        margin: auto;
-      }
+  @media print {
+    .play, th:first-child { display: none; }
+  }
   </style>
 
 </head>
