@@ -1,5 +1,0 @@
-{
-  "scripts": {
-    "start": "lessc src/style.less dist/style.css"
-  }
-}
