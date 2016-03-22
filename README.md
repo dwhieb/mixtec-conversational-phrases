@@ -1,2 +1,2 @@
-# mixtec
-Materials from the 2015-2016 field methods class on Mixtec
+# Mixtec Conversational Phrases
+A collection of conversational phrases in Tlahuapa Mixtec.

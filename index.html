@@ -8,9 +8,134 @@
   <meta name=description content='Conversational phrases in Mixtec'>
   <meta name=keywords content='Mixtec, Mixteco, linguistics, University of California Santa Barbara, UCSB'>
 
-  <link rel=stylesheet href=assets/fonts.css charset=utf-8>
-  <link rel=stylesheet href=assets/reset.css charset=utf-8>
-  <link rel=stylesheet href=assets/style.css charset=utf-8>
+  <style>
+  /* general elements */
+  html, body, div, span, applet, object, iframe,
+  /* headers */
+  h1, h2, h3, h4, h5, h6,
+  /* text elements */
+  p, blockquote, pre,
+  /* inline elements */
+  a, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var,
+  /* styling elements */
+  b, u, i,
+  /* lists */
+  dl, dt, dd, ol, ul, li,
+  /* forms & tables */
+  button, caption, input, fieldset, form, label, legend, table, textarea, tbody, tfoot, thead, tr, th, td,
+  /* semantic elements */
+  article, aside, audio, canvas, details, embed, figure, figcaption, footer, header, hgroup, main, mark, menu, nav, option, output, ruby, section, select, summary, time, video {
+    border: none;
+    border-collapse: collapse;
+    display: flex;
+    flex-direction: column;
+    font: inherit;
+    line-height: inherit;
+    margin: 0;
+    outline: none;
+    padding: 0;
+    text-decoration: none;
+    vertical-align: baseline;
+  }
+
+  a, abbr, acronym, b, bdo, br, big, cite, code, del, dfn, em, h1, h2, h3, h4, h5, h6, i, img, input, ins, kbd, map, mark, object, p, q, samp, select, s, small, span, strike, strong, sub, sup, textarea, tt, var {
+    display: inline;
+  }
+
+  a, a:link, a:visited, a:hover, a:active {
+    background: transparent;
+    color: inherit;
+    text-decoration: none;
+  }
+
+  body {
+    background-color: white;
+    font-family: 'Charis SIL', 'Doulos SIL', 'Gentium Plus', 'Times New Roman', 'serif';
+    font-size: 100%;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1.5;
+    max-width: 100vw;
+    min-height: 100vh;
+    min-width: 100vw;
+    overflow-x: hidden;
+    padding: 1rem;
+  }
+
+  table {
+    display: table;
+  }
+
+  tbody {
+    display: table-row-group;
+  }
+
+  td, th {
+    display: table-cell;
+    padding: 0.5rem;
+    vertical-align: baseline;
+  }
+
+  th {
+    font-size: 1.25rem;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  thead {
+    display: table-header-group;
+  }
+
+  tr {
+    display: table-row;
+  }
+
+  [lang=mix] {
+    font-style: italic;
+  }
+
+  span {
+    display: flex;
+  }
+
+  header {
+    padding: 1rem;
+  }
+
+    header h1 {
+      font-size: 2rem;
+      font-weight: bold;
+    }
+
+    header span {
+      align-items: center;
+    }
+
+    header p {
+      font-size: 1.25rem;
+      padding: 0.5rem;
+      text-align: center;
+    }
+
+    main {
+      align-items: center;
+      font-size: 1.25rem;
+      padding: 1rem;
+    }
+
+    .play {
+      text-align: center;
+      vertical-align: middle;
+    }
+
+      .play svg {
+        cursor: pointer;
+        display: block;
+        margin: auto;
+      }
+  </style>
 
 </head>
 <body>
@@ -39,10 +164,324 @@
     </table>
   </main>
 
-  <audio id=audio type=audio/wav src=data/Tlhp-032-Conversational_phrases_16_bit.wav></audio>
+  <audio id=audio type=audio/wav src=Tlhp-032-Conversational_phrases_16_bit.wav></audio>
 
-  <script src=data/conversational-phrases.js charset=utf-8></script>
-  <script src=assets/script.js charset=utf-8></script>
+  <script type=text/javascript>
+
+  var data = [
+    {
+      "start": "4.73",
+      "end": "5.87",
+      "mix": "Ándéé bàʼandó?",
+      "spa": "Están Uds. bien? (formal)",
+      "eng": "Are you doing well? (pl. formal)"
+    },
+    {
+      "start": "11.055",
+      "end": "11.885",
+      "mix": "Ándééndó?",
+      "spa": "Cómo están Uds.?",
+      "eng": "How are you? (pl. formal)"
+    },
+    {
+      "start": "16.101",
+      "end": "17.161",
+      "mix": "Ayóo bàʼún?",
+      "spa": "Está Ud. bien? (formal)",
+      "eng": "Are you doing well? (sg. formal)"
+    },
+    {
+      "start": "20.518",
+      "end": "21.388",
+      "mix": "Ayôún?",
+      "spa": "Cómo está Ud.?",
+      "eng": "How are you? (sg. formal)"
+    },
+    {
+      "start": "25.395",
+      "end": "26.095",
+      "mix": "bàʼa",
+      "spa": "bueno",
+      "eng": "good"
+    },
+    {
+      "start": "27.678",
+      "end": "28.468",
+      "mix": "bàʼá",
+      "spa": "malo",
+      "eng": "bad"
+    },
+    {
+      "start": "33.004",
+      "end": "33.874",
+      "mix": "bàʼa ba",
+      "spa": "bien, bueno",
+      "eng": "well, good"
+    },
+    {
+      "start": "38.592",
+      "end": "40.012",
+      "mix": "Chaʼbi bàʼa tontoún.",
+      "spa": "Muchisimas gracias.",
+      "eng": "Thank you (sg.) very much."
+    },
+    {
+      "start": "48.056",
+      "end": "49.166",
+      "mix": "Chaʼbi bàʼún.",
+      "spa": "Gracias. (sg.)",
+      "eng": "Thank you. (sg.)"
+    },
+    {
+      "start": "52.018",
+      "end": "52.848",
+      "mix": "Chaʼbi ún.",
+      "spa": "Gracias. (sg.)",
+      "eng": "Thank you. (sg.)"
+    },
+    {
+      "start": "57.887",
+      "end": "58.947",
+      "mix": "Chaʼbi miún.",
+      "spa": "Gracias a tí.",
+      "eng": "Thank *you*. (sg.)"
+    },
+    {
+      "start": "67.14",
+      "end": "68.14",
+      "mix": "Iʼní ndiaʼí.",
+      "spa": "Soy enojana.",
+      "eng": "I'm an angry person."
+    },
+    {
+      "start": "72.062",
+      "end": "73.742",
+      "mix": "Kasa káʼnu innú xàʼí.",
+      "spa": "Lo siento.",
+      "eng": "I'm sorry."
+    },
+    {
+      "start": "77.909",
+      "end": "78.589",
+      "mix": "kaʼà",
+      "spa": "hablar",
+      "eng": "to speak"
+    },
+    {
+      "start": "83.403",
+      "end": "84.183",
+      "mix": "Káʼandó.",
+      "spa": "Digama. (teléfono)",
+      "eng": "Talk to me. (phone)"
+    },
+    {
+      "start": "87.384",
+      "end": "88.124",
+      "mix": "kìbi",
+      "spa": "nombre",
+      "eng": "name"
+    },
+    {
+      "start": "91.419",
+      "end": "92.459",
+      "mix": "Kìbi kúú ...",
+      "spa": "Mi nombre es ...",
+      "eng": "My name is ..."
+    },
+    {
+      "start": "96.259",
+      "end": "97.119",
+      "mix": "Kwaʼan beí.",
+      "spa": "Adios.",
+      "eng": "Goodbye."
+    },
+    {
+      "start": "101.18",
+      "end": "101.97",
+      "mix": "Kwaʼìn.",
+      "spa": "Me voy.",
+      "eng": "I'm leaving."
+    },
+    {
+      "start": "106.296",
+      "end": "107.296",
+      "mix": "Ḿmḿ.",
+      "spa": "Sí.",
+      "eng": "Uh huh."
+    },
+    {
+      "start": "111.287",
+      "end": "112.867",
+      "mix": "Ña kusana kúá.",
+      "spa": "Fue accidental.",
+      "eng": "It was an accident."
+    },
+    {
+      "start": "117.565",
+      "end": "118.385",
+      "mix": "nana",
+      "spa": "madre",
+      "eng": "madam"
+    },
+    {
+      "start": "124.324",
+      "end": "125.504",
+      "mix": "Ndàcha naníún?",
+      "spa": "Cual es tu nombre?",
+      "eng": "What's your name?"
+    },
+    {
+      "start": "130.842",
+      "end": "132.1",
+      "mix": "Ndàcha yóo miún?",
+      "spa": "Y cómo estás tú? (informal)",
+      "eng": "And how are you? (sg. informal)"
+    },
+    {
+      "start": "140.487",
+      "end": "142.237",
+      "mix": "Ndakúá kúbi chindééndí ndóʼo?",
+      "spa": "En qué podemos ayudar Uds.?",
+      "eng": "How can we help you? (pl.)"
+    },
+    {
+      "start": "146.329",
+      "end": "147.359",
+      "mix": "Ndéé bàʼa bandí.",
+      "spa": "Estámos bien.",
+      "eng": "We're good."
+    },
+    {
+      "start": "150.443",
+      "end": "151.403",
+      "mix": "Ndéé bàʼandó?",
+      "spa": "Están Uds. bien? (informal)",
+      "eng": "Are you doing good? (pl. informal)"
+    },
+    {
+      "start": "155.687",
+      "end": "156.617",
+      "mix": "Ndééndóʼo.",
+      "spa": "Cómo están Uds.? (informal)",
+      "eng": "How are you? (pl. informal)"
+    },
+    {
+      "start": "158.35",
+      "end": "159.16",
+      "mix": "tata",
+      "spa": "padre",
+      "eng": "sir"
+    },
+    {
+      "start": "161.999",
+      "end": "162.749",
+      "mix": "tuʼun",
+      "spa": "lengua",
+      "eng": "language"
+    },
+    {
+      "start": "167.071",
+      "end": "168.051",
+      "mix": "Tuʼun Ndáʼbi",
+      "spa": "Mixteco",
+      "eng": "Mixtec"
+    },
+    {
+      "start": "172.171",
+      "end": "173.161",
+      "mix": "Tuʼun Sàbí",
+      "spa": "Mixteco (formal)",
+      "eng": "Mixtec (formal)"
+    },
+    {
+      "start": "175.631",
+      "end": "176.611",
+      "mix": "Xitaànga.",
+      "spa": "Hasta mañana.",
+      "eng": "Until later."
+    },
+    {
+      "start": "188.37",
+      "end": "189.99",
+      "mix": "Yôí kìbi biti.",
+      "spa": "???",
+      "eng": "???"
+    },
+    {
+      "start": "195.901",
+      "end": "196.901",
+      "mix": "Yóo bàʼa beí.",
+      "spa": "Estoy bien.",
+      "eng": "I'm doing good."
+    },
+    {
+      "start": "202.932",
+      "end": "203.792",
+      "mix": "Yóo bàʼún?",
+      "spa": "Estás bien? (informal)",
+      "eng": "Are you doing good? (sg. informal)"
+    },
+    {
+      "start": "206.311",
+      "end": "207.141",
+      "mix": "Yóo beí.",
+      "spa": "Estoy bien.",
+      "eng": "I'm good."
+    },
+    {
+      "start": "215.889",
+      "end": "216.749",
+      "mix": "Yôún?",
+      "spa": "Cómo estás? (informal)",
+      "eng": "How are you? (sg. informal)"
+    }
+  ];
+
+  var render = () => {
+
+    var audio = document.getElementById('audio');
+    var tbody = document.querySelector('tbody');
+
+    data.forEach(function (phrase) {
+
+      var html = `<tr data-start=${phrase.start} data-end=${phrase.end}>
+        <td class=play>
+          <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+            <path fill="#000000" d="M12,20.14C7.59,20.14 4,16.55 4,12.14C4,7.73 7.59,4.14 12,4.14C16.41,4.14 20,7.73 20,12.14C20,16.55 16.41,20.14 12,20.14M12,2.14A10,10 0 0,0 2,12.14A10,10 0 0,0 12,22.14A10,10 0 0,0 22,12.14C22,6.61 17.5,2.14 12,2.14M10,16.64L16,12.14L10,7.64V16.64Z" />
+          </svg>
+        </td>
+        <td lang=mix>${phrase.mix}</td>
+        <td lang=spa>${phrase.spa}</td>
+        <td lang=eng>${phrase.eng}</td>
+      </tr>`;
+
+      tbody.insertAdjacentHTML('beforeend', html);
+
+    });
+
+    var play = ev => {
+      audio.pause();
+      var start, end;
+      var checkParent = function (el) {
+        if (el.parentNode.dataset && el.parentNode.dataset.start && el.parentNode.dataset.end) {
+          start = el.parentNode.dataset.start;
+          end = el.parentNode.dataset.end;
+        } else {
+          checkParent(el.parentNode);
+        }
+      };
+      checkParent(ev.target);
+      audio.src = `Tlhp-032-Conversational_phrases_16_bit.wav#t=${start},${end}`;
+      audio.play();
+    };
+
+    tbody.addEventListener('click', play, true);
+
+  };
+
+  window.addEventListener('load', render);
+
+  </script>
 
 </body>
 </html>
