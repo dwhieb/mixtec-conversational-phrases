@@ -1,6 +1,8 @@
 cff-version: 1.2.0
 message: Please cite the data in this repository using the following information.
 authors:
+- family names: Reyes Basurto
+  given-names:  Griselda
 - family-names: Hieber
   given-names:  Daniel W.
   orcid:        https://orcid.org/0000-0002-1411-3773
